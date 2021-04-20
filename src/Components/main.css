@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navigation-bar {
+    width: 100%;
+    margin-left: 600px;
+    font-family: sans-serif;
+ 
+}
+
+.navigation-bar .fa{
+
+    margin-left: 4px;
+}
+
+
+.cook-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.verification-status {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+
+}
+
+.fa {
+    font-size: x-large;
+    background-color: white;
+}
+
+.checked {
+    color: black;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.breaker{
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+.dashed-line {
+    border: 2px solid orange;
+    background-color: orange;
+    width: 30%;
+}
+
+.food-section {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(243, 247, 243);
+}
+.food-pic {
+    border-radius: 10px;
+    padding: 0px;
+    height: 200px;
+    width: 250px;
+}
+
+.my-chef {
+    font-weight: bold;
+}
+
+.address {
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .cook-image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .food-pic {
+        padding: 5px;
+        border-radius: 10px;
+        height: 70px;
+        width: 50px;
+    }
+    
+  }
