@@ -1,18 +1,11 @@
-import React from 'react'
-
-import {Navbar } from 'react-bootstrap'
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import React from 'react';
 import Main from './Components/Main';
 
 const App = () => {
   return (
-    <BrowserRouter>
-
-      <Route  exact path = ''>
-        <Main/>
-      </Route>
-      
-    </BrowserRouter>
+      <>
+      <Main />
+      </>
   );
 }
 
